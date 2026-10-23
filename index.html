@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hananeh Haghparast – Computer Engineering, Sharif University of Technology</title>
+<meta name="description" content="Computer engineering student at Sharif University of Technology working on machine unlearning, deep generative models and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6f8;--ink:#16202e;--mute:#5a6678;--line:#d3d9e1;--accent:#1f4fd8;--paper:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#10151d;--ink:#e7ebf1;--mute:#9aa6b8;--line:#2a3342;--accent:#7ea2ff;--paper:#171e29}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Newsreader",Georgia,serif}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+header{padding:4.5rem 0 2rem}
+h1{font-size:clamp(2.6rem,9vw,4.4rem);line-height:1.02;margin:0 0 .6rem;font-weight:600;letter-spacing:-.02em}
+.sub{font-size:1.3rem;color:var(--mute);margin:0;max-width:34rem}
+.steps{margin:2rem 0 0;width:100%}
+.steps svg{display:block;width:100%;height:auto}
+.steps figcaption{font:500 .8rem "Instrument Sans",sans-serif;color:var(--mute);margin-top:.5rem}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:1.4rem;overflow-x:auto;padding-top:.8rem;padding-bottom:.8rem;font:500 .95rem "Instrument Sans",sans-serif}
+nav a{text-decoration:none;color:var(--ink);white-space:nowrap}
+nav a:hover{color:var(--accent)}
+section{padding:2.8rem 0 .5rem;scroll-margin-top:3rem}
+h2{font-size:1.7rem;margin:0 0 1rem;font-weight:600}
+h3{font:600 1.05rem "Instrument Sans",sans-serif;margin:0 0 .2rem}
+.item{margin-bottom:1.5rem}
+.meta{font:400 .9rem "Instrument Sans",sans-serif;color:var(--mute)}
+.item p{margin:.3rem 0 0}
+dl{margin:0;display:grid;grid-template-columns:9rem 1fr;gap:.5rem 1rem;font-size:1rem}
+dt{font:600 .95rem "Instrument Sans",sans-serif}
+dd{margin:0}
+ul.plain{padding:0;margin:0;list-style:none}
+ul.plain li{padding:.45rem 0;border-bottom:1px solid var(--line)}
+ul.plain li:last-child{border:0}
+.contact{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;font:500 1rem "Instrument Sans",sans-serif}
+footer{padding:3rem 0 4rem;color:var(--mute);font:400 .85rem "Instrument Sans",sans-serif}
+@media (max-width:560px){dl{grid-template-columns:1fr}dt{margin-top:.6rem}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>Hananeh Haghparast</h1>
+  <p class="sub">Computer engineering student at Sharif University of Technology, working on machine unlearning and generative models.</p>
+  <figure class="steps" aria-hidden="true">
+    <svg id="q" viewBox="0 0 700 90" role="img"></svg>
+    <figcaption>The same signal at 16, 8 and 4 levels: what quantization does to a model's weights.</figcaption>
+  </figure>
+</header>
+
+<nav aria-label="Sections"><div class="wrap">
+  <a href="#research">Research</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#courses">Courses</a><a href="#contact">Contact</a>
+</div></nav>
+
+<main class="wrap">
+<section id="research">
+  <h2>Research</h2>
+  <div class="item">
+    <h3>Does quantization undo unlearning in text-to-image models?</h3>
+    <div class="meta">Machine unlearning</div>
+    <p>I test whether post-training quantization (INT4, INT8, FP16) reverses nudity unlearning in text-to-image models, and whether any regression comes from general degradation or is specific to the unlearned concept.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="item">
+    <h3>Machine learning and deep learning from scratch</h3>
+    <p>Implementations of linear regression, perceptron, logistic regression and a neural network, written without ML libraries.</p>
+  </div>
+  <div class="item">
+    <h3>Reinforcement learning</h3>
+    <p>Markov decision processes, Q-learning and SARSA.</p>
+  </div>
+  <p class="meta">Code is on <a href="https://github.com/HananehHaghparast">GitHub</a>.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <h3>B.Sc. in Computer Engineering, Sharif University of Technology</h3>
+    <div class="meta">2024 – present · GPA 18.34 / 20 · Tehran, Iran</div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <dl>
+    <dt>Languages</dt><dd>C, C++, Python, R, assembly, Verilog</dd>
+    <dt>Python libraries</dt><dd>NumPy, Pandas, scikit-learn, Matplotlib, PyTorch, TensorFlow</dd>
+    <dt>Tools</dt><dd>Git, GitHub, Kaggle, Google Colab, Jupyter, LaTeX, LTspice, Proteus, Logisim</dd>
+    <dt>Communication</dt><dd>Presenting, technical writing and documentation, working in interdisciplinary and cross-cultural teams</dd>
+  </dl>
+</section>
+
+<section id="courses">
+  <h2>Courses and certificates</h2>
+  <ul class="plain">
+    <li>AI/ML Fundamentals, Stanford University (certificate)</li>
+    <li>Artificial Intelligence, Sharif University of Technology</li>
+    <li>Linear Algebra, Sharif University of Technology</li>
+    <li>Data Structures and Algorithms, Sharif University of Technology</li>
+    <li>Machine Learning, self-studied and currently enrolled at Sharif</li>
+    <li>Deep Generative Models, currently enrolled at Sharif</li>
+    <li>Deep Learning, self-studied</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact">
+    <a href="mailto:hananeh1haghparast@gmail.com">hananeh1haghparast@gmail.com</a>
+    <a href="https://github.com/HananehHaghparast">GitHub</a>
+    <a href="https://www.linkedin.com/in/hananeh-haghparast633731434">LinkedIn</a>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">© 2026 Hananeh Haghparast</footer>
+
+<script>
+(function(){
+  var svg=document.getElementById('q'),rows=[16,8,4],h=26,out='';
+  rows.forEach(function(n,r){
+    var y0=r*30+2,pts=[];
+    for(var x=0;x<=700;x+=4){
+      var v=(Math.sin(x/55)+Math.sin(x/23)*.4)/1.4;
+      var q=Math.round((v+1)/2*(n-1))/(n-1);
+      pts.push((x)+','+(y0+h-q*h).toFixed(1));
+    }
+    out+='<polyline fill="none" stroke="'+(r==2?'var(--accent)':'var(--mute)')+'" stroke-width="1.6" points="'+pts.join(' ')+'"/>';
+  });
+  svg.innerHTML=out;
+})();
+</script>
+</body>
+</html>
